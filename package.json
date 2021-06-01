@@ -1,7 +1,7 @@
 {
   "name": "style-override",
   "main": "./lib/style-override",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Override font families in preview, max body width, and other things in the future.",
   "keywords": [],
   "repository": "https://github.com/moyicat/inkdrop-style-override",
