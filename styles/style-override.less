@@ -1,0 +1,30 @@
+.style-override {
+	.mde-preview {
+		font-family: var(--inkdrop-style-override-preview-body);
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: var(--inkdrop-style-override-preview-title);
+		}
+		code,
+		kbd,
+		pre,
+		pre code {
+			font-family: var(--inkdrop-style-override-preview-code);
+		}
+	}
+	.mde-preview > div {
+		max-width: var(--inkdrop-style-override-preview-max-width);
+	}
+	.CodeMirror-scroll {
+		max-width: var(--inkdrop-style-override-editor-max-width);
+		margin: 0 auto;
+		
+	}
+	.CodeMirror-scroll::-webkit-scrollbar {
+		display: none;
+	}
+}
